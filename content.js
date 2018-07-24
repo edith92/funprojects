@@ -10,12 +10,16 @@ for (var i = 0; i < elements.length; i++) {
             var text = node.nodeValue;
             var replacedText = text.replace(/puppies/gi, 'puppers');
             var replacedText2 = text.replace(/puppy/gi, 'pupper');
+            var replacedText3 = text.replace(/dog/gi, 'doggo');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
             }
             if (replacedText2 !== text) {
                 element.replaceChild(document.createTextNode(replacedText2), node);
+            }
+            if (replacedText3 !== text) {
+                element.replaceChild(document.createTextNode(replacedText3), node);
             }
         }
     }
