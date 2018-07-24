@@ -1,2 +1,1 @@
-# funprojects
-Just fun little projects on the side
+This is your Chrome extension which replaces a word or phrase with a different word or phrase. 
